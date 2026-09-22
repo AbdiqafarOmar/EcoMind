@@ -1,19 +1,5 @@
-# Ignore virtual environments
-.venv/
-venv/
-
-# Ignore Python cache files
 __pycache__/
+.pytest_cache/
+.venv/
 *.pyc
-*.pyo
-*.pyd
-
-# Ignore system files
 .DS_Store
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-
-# Ignore compiled outputs and PDFs
-*.pdf

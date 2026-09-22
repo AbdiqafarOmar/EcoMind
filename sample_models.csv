@@ -1,5 +1,5 @@
 model,params_billion,train_tokens_billion
-Alpha-7B,7,1.2
-Beta-13B,13,2.0
-Gamma-70B,70,1.0
-Delta-34B,34,1.5
+Alpha-7B,7,1000
+Beta-13B,13,1500
+Gamma-70B,70,2000
+Delta-34B,34,1200
