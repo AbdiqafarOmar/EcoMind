@@ -15,6 +15,8 @@ st.markdown("""
 .hero h1 {margin: 0; color: #123b2a; font-size: 2.25rem;}
 .hero p {margin: .5rem 0 0; color: #35594a; font-size: 1.05rem;}
 div[data-testid="stMetric"] {border: 1px solid #dfe7e2; padding: .75rem; border-radius: 12px; background: #ffffff;}
+div[data-testid="stMetric"] [data-testid="stMetricLabel"],
+div[data-testid="stMetric"] [data-testid="stMetricValue"] {color: #123b2a;}
 .disclosure {font-size: .88rem; color: #53645c;}
 </style>
 """, unsafe_allow_html=True)
